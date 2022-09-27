@@ -1,26 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Box Model Exercise</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">  
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #F7F7F7;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .required {
+      color: red;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+
+    h2 {
+      color: #257165;
+    }
+
+    main {
+    }
+
+    header {
+    }
+
+    section {
+    }
+  </style>
 </head>
 
 <body>
-    <article class="card-one">
-      <img src="images/claireguiot.jpeg" width="80" alt="Claire Guiot">
-      <h2>Claire Guiot</h2>
-      <p>Faculty, DIGITAL Design + Development <br />
-        North Island College</p>
-    </article>
+  <main>
+    <header>
+      <h1>American Poetry and Prose</h1>
+    </header>
+    <h2>Reading List</h2>
 
-    <article class="card-two">
-      <h2>Top facts about Elephants</h2>
-      <p>Ten incredible facts that will blow your mind</p>
-    </article>
-  </body>
-  
+    <p>Items in <span class="required">red are required</span>, the rest is optional.</p>
+    <section>
+      <h3>Week 1: <em>The Romantic Movement</em></h3>
+
+      <ul>
+        <li class="required">Walt Whitman, <em>Song of Myself</em></li>
+        <li>Washington Irving, <em>Rip Van Winkle</em></li>
+        <li>Edgar Allen Poe, <em>The Raven</em></li>
+
+      </ul>
+    </section>
+    <section>
+      <h3>Week 2: <em>Realism and Naturalism</em></h3>
+
+      <ul>
+        <li class="required">Amy Lowell, <em>Lilacs</em></li>
+        <li>O. Henry, <em>The Gift of the Magi</em></li>
+        <li>Edna St. Vincent Millay, <em>Renascence</em></li>
+
+      </ul>
+    </section>
+  </main>
+</body>
+
 </html>
