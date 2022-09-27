@@ -10,9 +10,9 @@ This exercise was designed to help you understand this week's content. It is not
   * Give the main HTML element a shadow using the declaration below <br/>
 `{ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }`
   * The week 1 and week 2 reading lists are inside section HTML elements. Style the sections with:
-      * A border that is 2px thick, solid in style and uses the following hexadecimal colour: #F3F3F3
+      * A border that is 2px thick, solid in style and uses the following hexadecimal colour: `#F3F3F3`
       * Rounded corners with a 5px radius
-      * A background colour of #F7F7F7
+      * A background colour of `#F7F7F7`
       * 20px of padding on all four sides
       * Align their text to the left
       * Restrict their width to 350px
@@ -25,7 +25,7 @@ This exercise was designed to help you understand this week's content. It is not
       * Give it the same margins as the section elements
 
    * Style the header HTML element:
-      * Give it a background colour of #257165
+      * Give it a background colour of `#257165`
       * Change the colour of its text to white
       * Give it 20px of padding on all four sides
       * Round the top left and top right corners with a 10px radius
