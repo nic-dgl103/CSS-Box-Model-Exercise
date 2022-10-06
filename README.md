@@ -16,7 +16,7 @@ This exercise was designed to help you understand this week's content. It is not
       * 20px of padding on all four sides
       * Align their text to the left
       * Restrict their width to 350px
-      * Give their text a bit more vertical space by increasing its line height to 1.8rem
+      * Give their text a bit more vertical space by increasing its line height to 1.8
       * Set the horizontal margins to auto to horizontally center the element within its parent element, and set the vertical margins to 40px  
 
    * Style the main HTML element:
